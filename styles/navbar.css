@@ -30,3 +30,7 @@
 .active {
   color: var(--primary-color);
 }
+
+.nav-title {
+  color: var(--primary-color);
+}

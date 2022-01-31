@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+.sm {
+  height: 3rem;
+  width: 3rem;
+}
+
+.md {
+  height: 5rem;
+  width: 5rem;
+}
+
+.lg {
+  height: 7rem;
+  width: 7rem;
+}
+
+.square {
+  border-radius: 5px;
+}

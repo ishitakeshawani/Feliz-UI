@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--white);
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.no-style {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--black);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav-link:last-child {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.nav-link:hover,
+.active {
+  color: var(--primary-color);
+}

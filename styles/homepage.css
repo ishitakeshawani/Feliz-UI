@@ -11,10 +11,14 @@
 }
 
 .home-page-description {
-  place-self: center;
+  word-wrap: break-word;
   color: var(--black);
   font-size: 1.5rem;
   text-align: left;
+}
+
+.description{
+  margin: 1rem 0;
 }
 
 .desc-title {
@@ -25,10 +29,33 @@
   margin-bottom: 5px;
 }
 
+.doc-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 0.7rem 2rem;
+  border: 1px solid transparent;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.doc-btn:hover{
+  border-color: var(--primary-color);
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.lottie-anim {
+  object-fit: contain;
+  width: 80%;
+  place-content: center;
+}
+
 @media only screen and (max-width: 1280px) {
   .home-page {
     grid-template-columns: 1fr 1fr;
-    padding: 5rem 3rem;
+    padding: 3rem 3rem;
   }
 }
 

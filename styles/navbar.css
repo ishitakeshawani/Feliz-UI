@@ -3,7 +3,6 @@
   padding: 1rem;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 1.5rem;
   font-size: 1.2rem;
@@ -34,3 +33,10 @@
 .nav-title {
   color: var(--primary-color);
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 0.8rem;
+  }
+}
+

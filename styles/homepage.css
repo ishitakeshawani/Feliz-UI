@@ -36,6 +36,11 @@
   .home-page {
     grid-template-columns: 1fr;
     padding: 1.5rem;
-    font-size: 0.8rem;
+  }
+  .home-page-description {
+    font-size: 1em;
+  }
+  .desc-title {
+    font-size: 1.2rem;
   }
 }

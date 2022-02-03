@@ -5,7 +5,7 @@
   padding: 0 5rem;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   height: max-content;
 }
@@ -17,7 +17,7 @@
   text-align: left;
 }
 
-.description{
+.description {
   margin: 1rem 0;
 }
 
@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 
-.doc-btn:hover{
+.doc-btn:hover {
   border-color: var(--primary-color);
   background-color: var(--white);
   color: var(--primary-color);
@@ -52,6 +52,43 @@
   place-content: center;
 }
 
+.installation {
+  align-items: flex-start;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.installation-desc {
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  color: var(--black);
+  text-align: left;
+}
+
+.instruction {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.installation-img {
+  object-fit: contain;
+  width: 80%;
+  place-content: center;
+}
+
+.tick-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
 @media only screen and (max-width: 1280px) {
   .home-page {
     grid-template-columns: 1fr 1fr;
@@ -59,15 +96,38 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .home-page {
+    align-items: center;
     grid-template-columns: 1fr;
     padding: 1.5rem;
   }
   .home-page-description {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .desc-title {
     font-size: 1.2rem;
+  }
+  .installation-desc {
+    align-items: flex-start;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    font-size: 1rem;
+  }
+  .installation-img {
+    display: none;
+  }
+  .home-page {
+    min-height: 10vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 2rem;
+  }
+  .installation {
+    justify-content: center;
+    min-height: 10vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
   }
 }

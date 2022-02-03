@@ -121,7 +121,7 @@
     min-height: 10vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
   }
   .installation {
     justify-content: center;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ishita Keshawani" />
+  <link rel="stylesheet" href="/styles/avatarpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <title>Avatar</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="nav-link no-style" href="/index.html">Home</a>
+    <a class="nav-link no-style active" href="./pages/documentation.html">Documentation</a>
+    <i class="far fa-moon nav-link"></i>
+  </nav>
+  <div class="drawer-container">
+    <aside>
+      <div class="sideheader">
+        <h4>Components</h4>
+      </div>
+      <div class="sidebar">
+        <div class="headitems">
+          <div class="item1">
+            <i class="fas fa-user"></i>
+            <span>Avatar</span>
+          </div>
+          <div class="item">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>Alert</span>
+          </div>
+          <div class="item">
+            <i class="fas fa-certificate"></i>
+            <span>Badge</span>
+          </div>
+          <div class="item">
+            <i class="fas fa-mouse"></i>
+            <span>Button</span>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+    <div class="avatar-section">
+      <div class="avatar-title">Avatar</div>
+      <p class="avatar-desc">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used
+        for 'container' objects projects, spaces, repositories, etcetera to give them a recognisable visual identity.
+      </p>
+      <hr>
+      <div class="avatar-title">Profile Avatar</div>
+      <p class="avatar-desc">Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
+      <div class="box">
+        <img class="avatar" src="https://i.pravatar.cc/300" alt="profile avatar" />
+        <img class="avatar" src="https://i.pravatar.cc/300" alt="profile avatar" />
+        <img class="avatar" src="https://i.pravatar.cc/300" alt="profile avatar" />
+      </div>
+      <div class="code-snip">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522profile%2520avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522profile%2520avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522profile%2520avatar%2522%2520%252F%253E%250A"
+          style="width: 835px; height: 213px; border:0; transform: scale(1); overflow:auto;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr>
+      <div class="avatar-title">Sizes Avatar</div>
+      <p class="avatar-desc">Size of the avatars can be changed by adding sm | md | lg class to the existing avatar
+        class.</p>
+      <div class="box">
+        <img class="avatar sm" src="https://i.pravatar.cc/300" alt="smallsize avatar" />
+        <img class="avatar md" src="https://i.pravatar.cc/300" alt="mediumsize avatar" />
+        <img class="avatar lg" src="https://i.pravatar.cc/300" alt="largesize avatar" />
+      </div>
+      <div class="code-snip">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520sm%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522smallsize%2520avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522mediumsize%2520avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520lg%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522largesize%2520avatar%2522%2520%252F%253E%250A"
+          style="width: 835px; height: 213px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr>
+      <div class="avatar-title">Square Avatar</div>
+      <p class="avatar-desc">Adding a class 'square' to existing class, will generate a square shaped avatar.</p>
+      <div class="box">
+        <img class="avatar square md" src="https://i.pravatar.cc/300" alt="avatar" />
+        <img class="avatar square md" src="https://i.pravatar.cc/300" alt="avatar" />
+        <img class="avatar square md" src="https://i.pravatar.cc/300" alt="avatar" />
+      </div>
+      <div class="code-snip">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=786&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520square%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520square%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520square%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A"
+          style="width: 835px; height: 213px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+    </div>
+</body>
+
+</html>

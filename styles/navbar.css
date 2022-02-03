@@ -32,11 +32,14 @@
 
 .nav-title {
   color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 768px) {
   .navbar {
     font-size: 1rem;
+    width: 100%;
   }
 }
 

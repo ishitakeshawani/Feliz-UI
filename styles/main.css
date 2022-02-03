@@ -1,6 +1,6 @@
 @import url(navbar.css);
 @import url(homepage.css);
-@import url(documentation.css);
+@import url(avatarpage.css);
 
 * {
   margin: 0;
@@ -17,4 +17,5 @@
   --gray: #f6f7f9;
   --lightBlue: #E6F7FF;
   --textColor:#23272F;
+  --lightGray:#F7F6F9;
 }

@@ -1,0 +1,79 @@
+@import url(./main.css);
+@import url(./navbar.css);
+@import url(./drawer.css);
+
+.avatar-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avatar-section{
+    margin: 1rem;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.avatar-desc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: var(--textColor);
+    font-size: 1.2rem;
+}
+
+.box{
+    background-color: #F7F6F9;
+    padding: 1rem;
+    box-shadow: 0 0 #0000,inset 0 1px 4px 0 rgba(0,0,0,0.05);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+  }
+  
+  .code-snip{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+  }
+
+  .sm {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .md {
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .lg {
+    height: 7rem;
+    width: 7rem;
+  }
+  
+  .square {
+    border-radius: 5px;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+      aside{
+          display: none;
+      }
+    }

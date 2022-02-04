@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
   <title>Avatar</title>
 </head>
 
@@ -22,41 +20,41 @@
     <i class="far fa-moon nav-link"></i>
   </nav>
   <div class="drawer-container">
-    <aside>
+    <aside class="aside-component">
       <div class="sideheader">
         <h4>Components</h4>
       </div>
       <div class="sidebar">
         <div class="headitems">
           <div class="item1">
-            <i class="fas fa-user"></i>
-            <span>Avatar</span>
+
+            <a class="no-style" href="avatarpage.html">Avatar</a>
           </div>
           <div class="item">
-            <i class="fas fa-exclamation-triangle"></i>
+
             <span>Alert</span>
           </div>
           <div class="item">
-            <i class="fas fa-certificate"></i>
-            <span>Badge</span>
+
+            <a class="no-style" href="badge.html">Badge</a>
           </div>
           <div class="item">
-            <i class="fas fa-mouse"></i>
-            <span>Button</span>
+            <a class="no-style" href="#">Button</a>
+
           </div>
         </div>
 
       </div>
     </aside>
 
-    <div class="avatar-section">
-      <div class="avatar-title">Avatar</div>
-      <p class="avatar-desc">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used
+    <div class="component-section">
+      <div class="component-title">Avatar</div>
+      <p class="component-desc">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used
         for 'container' objects projects, spaces, repositories, etcetera to give them a recognisable visual identity.
       </p>
       <hr>
-      <div class="avatar-title">Profile Avatar</div>
-      <p class="avatar-desc">Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
+      <div class="component-title">Profile Avatar</div>
+      <p class="component-desc">Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
       <div class="box">
         <img class="avatar" src="https://i.pravatar.cc/300" alt="profile avatar" />
         <img class="avatar" src="https://i.pravatar.cc/300" alt="profile avatar" />
@@ -70,8 +68,8 @@
         </iframe>
       </div>
       <hr>
-      <div class="avatar-title">Sizes Avatar</div>
-      <p class="avatar-desc">Size of the avatars can be changed by adding sm | md | lg class to the existing avatar
+      <div class="component-title">Sizes Avatar</div>
+      <p class="component-desc">Size of the avatars can be changed by adding sm | md | lg class to the existing avatar
         class.</p>
       <div class="box">
         <img class="avatar sm" src="https://i.pravatar.cc/300" alt="smallsize avatar" />
@@ -86,8 +84,8 @@
         </iframe>
       </div>
       <hr>
-      <div class="avatar-title">Square Avatar</div>
-      <p class="avatar-desc">Adding a class 'square' to existing class, will generate a square shaped avatar.</p>
+      <div class="component-title">Square Avatar</div>
+      <p class="component-desc">Adding a class 'square' to existing class, will generate a square shaped avatar.</p>
       <div class="box">
         <img class="avatar square md" src="https://i.pravatar.cc/300" alt="avatar" />
         <img class="avatar square md" src="https://i.pravatar.cc/300" alt="avatar" />
@@ -100,8 +98,9 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </div>
-      <a href="/pages/badge.html" class="no-style linkToNext">Badge</a>
-      
+      <div class="linkTo">
+        <a href="/pages/badge.html" class="no-style linkToNext">Badge</a>
+      </div>
     </div>
 </body>
 

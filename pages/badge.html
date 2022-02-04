@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles/badgepage.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="nav-link no-style" href="/index.html">Home</a>
+      <a class="nav-link no-style active" href="avatarpage.html"
+        >Documentation</a
+      >
+      <i class="far fa-moon nav-link"></i>
+    </nav>
+    <div class="drawer-container">
+      <aside class="aside-component">
+        <div class="sideheader">
+          <h4>Components</h4>
+        </div>
+        <div class="sidebar">
+          <div class="headitems">
+            <div class="item">
+              <a class="no-style" href="avatarpage.html">Avatar</a>
+            </div>
+            <div class="item">
+              <span>Alert</span>
+            </div>
+            <div class="item1">
+              <a class="no-style" href="badge.html">Badge</a>
+            </div>
+            <div class="item">
+              <a class="no-style" href="#">Button</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="component-section">
+        <div class="component-title">Badge</div>
+        <div class="component-desc">
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used.
+        </div>
+        <hr />
+        <div class="component-title">Profile Badge</div>
+        <div class="component-desc">
+          Profile Badge is used to show the current status of a user.
+        </div>
+        <div class="box">
+          <div>
+            <img
+              class="avatar md"
+              src="https://i.pravatar.cc/300"
+              alt="profile badge"
+            />
+            <span class="badge"></span>
+          </div>
+          <div>
+            <img
+              class="avatar md"
+              src="https://i.pravatar.cc/300"
+              alt="profile badge"
+            />
+            <span class="badge"></span>
+          </div>
+        </div>
+        <div class="code-snip">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2509%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2509%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 882px;
+              height: 288px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <div class="component-title">Number Badge</div>
+        <div class="component-desc">
+          Number Badge is used to show the no. of items present in the parent
+          component.
+        </div>
+        <div class="box">
+          <div>
+            <i class="fas fa-envelope fa-2x">
+              <span class="number-badge">2</span></i
+            >
+          </div>
+          <div>
+            <p class="component-desc">
+              Text with badge <span class="number-badge">3</span>
+            </p>
+          </div>
+        </div>
+        <div class="code-snip">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-2x%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2509%253Cp%2520class%253D%2522component-desc%2522%253EText%2520with%2520badge%2520%253Cspan%2520class%253D%2522number%2520badge%2522%253E3%253C%252Fspan%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 882px;
+              height: 288px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="linkTo">
+          <a href="/pages/avatarpage.html" class="no-style linkToPrev"
+            >Avatar</a
+          >
+          <a href="#" class="no-style linkToNext">Button</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,7 @@
 @import url(navbar.css);
 @import url(homepage.css);
 @import url(avatarpage.css);
+@import url(badgepage.css);
 
 * {
   margin: 0;

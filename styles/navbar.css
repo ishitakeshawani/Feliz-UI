@@ -6,7 +6,6 @@
   align-items: center;
   gap: 1.5rem;
   font-size: 1.2rem;
-  font-weight: 500;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -29,7 +28,6 @@
 .nav-title {
   color: var(--primary-color);
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 @media only screen and (max-width: 768px) {

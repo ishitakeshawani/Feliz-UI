@@ -67,3 +67,15 @@
 .linkToPrev:hover, .linkToNext:hover{
   color: var(--primary-color);
 }
+
+@media only screen and (max-width: 800px) {
+  .component-title{
+    font-size: 1rem;
+  }
+  .component-desc{
+    font-size: 0.9rem;
+  }
+  .component-section{
+    margin-right: 1rem;
+  }
+}

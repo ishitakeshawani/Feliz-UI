@@ -65,7 +65,11 @@ i {
 }
 
 @media only screen and (max-width: 800px) {
-  aside {
+  .aside-component {
     display: none;
   }
+  .drawer-container {
+   display: block;
+  }
 }
+

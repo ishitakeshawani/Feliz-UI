@@ -1,9 +1,3 @@
-@import url(navbar.css);
-@import url(drawer.css);
-@import url(main.css);
-@import url(page.css);
-@import url(avatar.css);
-
 .badge {
   position: relative;
   width: max-content;

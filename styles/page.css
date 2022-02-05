@@ -1,6 +1,10 @@
-@import url(./main.css);
-@import url(./navbar.css);
-@import url(./drawer.css);
+@import url(main.css);
+@import url(navbar.css);
+@import url(homepage.css);
+@import url(avatar.css);
+@import url(badge.css);
+@import url(drawer.css);
+
 
 .component-title {
   font-size: 2rem;

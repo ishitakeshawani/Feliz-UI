@@ -1,0 +1,46 @@
+.btn{
+    background-color: blueviolet;
+    color: var(--white);
+    padding: 0.7rem 1.7rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+}
+
+.secondary-btn{
+    background-color: royalblue;
+}
+
+.click-btn{
+    background-color: var(--lightBlue);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.delete-btn{
+    background-color: black;
+}
+
+.link-btn a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.outlined-btn{
+    background-color: pink;
+    color: darkmagenta;
+    border: 1px solid darkmagenta;
+}
+
+.outlined-btn:hover{
+    background-color: darkmagenta;
+    color: white;
+}

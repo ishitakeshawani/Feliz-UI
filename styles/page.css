@@ -1,7 +1,7 @@
 @import url(main.css);
 @import url(navbar.css);
 @import url(homepage.css);
-@import url(avatar.css);
+@import url(/Components/Avatar/avatar.css);
 @import url(badge.css);
 @import url(drawer.css);
 

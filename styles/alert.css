@@ -1,0 +1,50 @@
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.alert {
+  margin: 8px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: var(--white);
+  opacity: 0.8;
+}
+
+.primary-alert {
+  background-color: blueviolet;
+}
+
+.error-alert {
+  background-color: red;
+}
+
+.success-alert {
+  background-color: green;
+}
+
+.warning-alert {
+  background-color: orange;
+}
+
+.outline-primary-alert {
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
+
+.outline-error-alert {
+  color: red;
+  border: 2px solid red;
+}
+
+.outline-success-alert {
+  color: green;
+  border: 2px solid green;
+}
+
+.outline-warning-alert {
+  color: orange;
+  border: 2px solid orange;
+}

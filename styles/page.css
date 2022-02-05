@@ -50,32 +50,37 @@
   border-radius: 10px;
 }
 
-.linkTo{
+.linkTo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
-.linkToNext, .linkToPrev {
+.linkToNext,
+.linkToPrev {
   color: var(--textColor);
   font-size: 1.2rem;
   font-weight: 400;
   text-decoration: underline;
 }
 
-.linkToPrev:hover, .linkToNext:hover{
+.linkToPrev:hover,
+.linkToNext:hover {
   color: var(--primary-color);
 }
 
+.link-no-style {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 800px) {
-  .component-title{
+  .component-title {
     font-size: 1rem;
   }
-  .component-desc{
+  .component-desc {
     font-size: 0.9rem;
   }
-  .component-section{
+  .component-section {
     margin-right: 1rem;
   }
 }

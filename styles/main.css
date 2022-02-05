@@ -2,6 +2,7 @@
 @import url(homepage.css);
 @import url(avatarpage.css);
 @import url(badgepage.css);
+@import url(page.css);
 
 * {
   margin: 0;
@@ -16,7 +17,7 @@
   --black: #23262e;
   --white: #fffefe;
   --gray: #f6f7f9;
-  --lightBlue: #E6F7FF;
-  --textColor:#23272F;
-  --lightGray:#F7F6F9;
+  --lightBlue: #e6f7ff;
+  --textColor: #23272f;
+  --lightGray: #f7f6f9;
 }

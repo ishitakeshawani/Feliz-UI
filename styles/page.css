@@ -1,0 +1,95 @@
+@import url(main.css);
+@import url(navbar.css);
+@import url(homepage.css);
+@import url(/Components/Avatar/avatar.css);
+@import url(badge.css);
+@import url(drawer.css);
+@import url(utils.css);
+
+
+.component-title {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.component-section {
+  margin: 1rem;
+  text-align: left;
+  margin-right: 5rem;
+}
+
+.component-desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--textColor);
+  font-size: 1.2rem;
+}
+
+.box {
+  background-color: #f7f6f9;
+  padding: 1rem;
+  box-shadow: 0 0 #0000, inset 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.code-snip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.component-button {
+  background-color: var(--white);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.linkTo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkToNext,
+.linkToPrev {
+  color: var(--textColor);
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.linkToPrev:hover,
+.linkToNext:hover {
+  color: var(--primary-color);
+}
+
+.link-no-style {
+  text-decoration: none;
+}
+
+.code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .component-title {
+    font-size: 1rem;
+  }
+  .component-desc {
+    font-size: 0.9rem;
+  }
+  .component-section {
+    margin-right: 1rem;
+  }
+}

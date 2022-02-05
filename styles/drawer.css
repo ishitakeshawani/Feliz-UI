@@ -5,62 +5,31 @@
 .aside-component {
   display: flex;
   flex-direction: column;
-  /* border-right: 1px solid #808080; */
-  width: 24rem;
-  height: 500px;
+  width: 20rem;
 }
 
-.sideheader {
-  padding: 1rem 1rem 0 1rem;
-}
-
-h4 {
+.drawer-header {
+  padding: 1rem 1rem 0.7rem 1rem;
   color: var(--text-color);
-  margin-right: 70px;
+  font-weight: 400;
 }
 
-i {
-  margin-right: 30px;
-  font-size: 1.3rem;
-  margin-left: 5px;
-}
-
-.item {
-  padding: 1rem;
+.drawer-items a {
+  display: block;
   font-weight: 500;
   color: var(--text-color);
+  padding: 0.8rem 1rem;
   font-size: 1.1rem;
-}
-
-.sidebar {
-  color: #676766;
-}
-
-.headitems {
-  padding: 0.6rem;
-}
-
-.item1 {
-  color: var(--primary-color);
-  background-color: var(--lightBlue);
-  padding: 1rem;
-  font-weight: 500;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1rem;
 }
 
-.item:hover {
+.active-item {
+  color: var(--primary-color) !important;
+  background-color: var(--lightBlue);
+}
+
+.drawer-items a:hover {
   background-color: var(--gray);
-  cursor: pointer;
-}
-
-.label {
-  font-size: 14px;
-}
-
-.item1:active,
-.item:active {
   cursor: pointer;
 }
 
@@ -69,7 +38,6 @@ i {
     display: none;
   }
   .drawer-container {
-   display: block;
+    display: block;
   }
 }
-

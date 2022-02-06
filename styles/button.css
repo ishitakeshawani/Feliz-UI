@@ -1,46 +1,69 @@
-.btn{
-    background-color: blueviolet;
-    color: var(--white);
-    padding: 0.7rem 1.7rem;
-    border: none;
-    font-size: 1rem;
+.btn {
+  background-color: darkcyan;
+  color: var(--white);
+  padding: 0.7rem 1.7rem;
+  border: none;
+  font-size: 1rem;
 }
 
-.btn:hover{
-    opacity: 0.9;
-    cursor: pointer;
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
-.primary-btn{
-    background-color: var(--primary-color);
+.primary-btn {
+  background-color: var(--primary-color);
 }
 
-.secondary-btn{
-    background-color: royalblue;
+.secondary-btn {
+  background-color: royalblue;
 }
 
-.click-btn{
-    background-color: var(--lightBlue);
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+.click-btn {
+  background-color: var(--lightBlue);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.delete-btn{
-    background-color: black;
+.delete-btn {
+  background-color: black;
 }
 
-.link-btn a{
-    text-decoration: none;
-    color: var(--white);
+.link-btn a {
+  text-decoration: none;
+  color: var(--white);
 }
 
-.outlined-btn{
-    background-color: pink;
-    color: darkmagenta;
-    border: 1px solid darkmagenta;
+.outlined-btn {
+  background-color: var(--white);
+  color: darkmagenta;
+  border: 1px solid darkmagenta;
 }
 
-.outlined-btn:hover{
-    background-color: darkmagenta;
-    color: white;
+.outlined-btn:hover {
+  background-color: darkmagenta;
+  color: white;
+}
+
+.icon-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.floating-btn {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  background-color: darkcyan;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  transition: font-size 3s all;
+}
+
+.floating-btn:hover {
+  font-size: 1.3rem;
 }

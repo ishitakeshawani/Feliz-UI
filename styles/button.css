@@ -1,5 +1,5 @@
 .btn {
-  background-color: darkcyan;
+  background-color: var(--darkCyan);
   color: var(--white);
   padding: 0.7rem 1.7rem;
   border: none;
@@ -16,7 +16,7 @@
 }
 
 .secondary-btn {
-  background-color: royalblue;
+  background-color: var(--royalBlue);
 }
 
 .click-btn {
@@ -26,7 +26,7 @@
 }
 
 .delete-btn {
-  background-color: black;
+  background-color: var(--black);
 }
 
 .link-btn a {
@@ -36,12 +36,12 @@
 
 .outlined-btn {
   background-color: var(--white);
-  color: darkmagenta;
-  border: 1px solid darkmagenta;
+  color: var(--darkMagenta);
+  border: 1px solid var(--darkMagenta);
 }
 
 .outlined-btn:hover {
-  background-color: darkmagenta;
+  background-color: var(--darkMagenta);
   color: white;
 }
 
@@ -57,7 +57,7 @@
   height: 3rem;
   width: 3rem;
   border: none;
-  background-color: darkcyan;
+  background-color: var(--darkCyan);
   font-size: 1.2rem;
   color: white;
   cursor: pointer;

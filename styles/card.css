@@ -1,0 +1,153 @@
+.card {
+  background: var(--cardBackground);
+  width: 20rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-box-shadow {
+  box-shadow: 0 4px 4px 0 rgba(1, 1, 0.5, 0.05);
+}
+
+.horizontal-card-img {
+  width: 10rem;
+  height: 8rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.card-img {
+  width: 20rem;
+  height: 12rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-section .card-header {
+  padding: 0.3rem 0.8rem;
+  overflow-wrap: break-word;
+}
+
+.horizontal-card-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-desc {
+  padding: 1rem;
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  order: 3;
+  color: var(--cardTextColor);
+}
+
+.card-section:hover {
+  background: var(--cardSectionHoverColor);
+}
+
+.card-header-title {
+  font-size: 1.25rem;
+}
+
+.author-name {
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+
+.card-title {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.card a {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.card a:hover {
+  background: var(--lightBlue);
+}
+
+.card-icon {
+  color: var(--cardIcon);
+  font-size: 1.4rem;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.card-icon:hover {
+  background: var(--cardIconHover);
+}
+
+.card-section p {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--cardTextColor);
+}
+
+/* .desc .intro {
+    font-size: 0.8rem;
+    font-weight: 400;
+  } */
+
+.card-share {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.card-share:hover {
+  border-radius: 50%;
+}
+
+#card-section:active {
+  background-color: var(--cardSectionActive);
+}
+
+.card-badge {
+  position: relative;
+  vertical-align: top;
+  bottom: 180px;
+  left: 8px;
+  width: 20%;
+  background-color: var(--darkCyan);
+  color: var(--white);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-dismiss {
+  border-style: none;
+  position: relative;
+  bottom: 180px;
+  left: 270px;
+  vertical-align: top;
+  cursor: pointer;
+  color: var(--black);
+  font-size: 1.3rem;
+}
+
+.card-text-overlay {
+  z-index: 3;
+  position: absolute;
+  padding: 20px;
+  color: var(--primary-color);
+}

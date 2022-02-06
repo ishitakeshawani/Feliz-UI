@@ -1,0 +1,22 @@
+.input{
+    padding: 10px 0;
+    width: 90%;
+}
+
+.input-group{
+    width: 70%;
+}
+
+.input-label{
+    color: var(--black);
+    font-size: 1.2rem;
+}
+
+.error-message{
+    color: red;
+}
+
+.input-red{
+    padding: 10px 0;
+    border: 1px solid red;
+}

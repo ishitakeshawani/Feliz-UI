@@ -52,3 +52,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+  }

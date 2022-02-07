@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ishita Keshawani" />
+    <meta name="description" content="navigation page of Feliz UI">
+    <link rel="stylesheet" href="/styles/page.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navigation</title>
+</head>
+
+<body>
+    <nav class="navbar semibold-font-weight">
+        <a class="nav-link link-no-style" href="/index.html">Home</a>
+        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
+        <i class="far fa-moon nav-link"></i>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="aside-component">
+            <div class="drawer-header regular-font-weight">Components</div>
+            <div>
+                <div class="drawer-items">
+                    <a class="link-no-style" href="avatar.html">Avatar</a>
+                    <a class="link-no-style" href="alert.html">Alert</a>
+                    <a class="link-no-style" href="badge.html">Badge</a>
+                    <a class="link-no-style" href="button.html">Button</a>
+                    <a class="link-no-style" href="card.html">Card</a>
+                    <a class="link-no-style" href="image.html">Image</a>
+                    <a class="link-no-style" href="input.html">Input</a>
+                    <a class="link-no-style" href="textutilities.html">Text Utilities</a>
+                    <a class="link-no-style" href="list.html">List</a>
+                    <a class="link-no-style active-item" href="navigation.html">Navigation</a>
+                </div>
+            </div>
+        </aside>
+
+        <div class="component-section">
+            <div class="component-title bold-font-weight">Navigation</div>
+            <div class="component-desc regular-font-weight">The navbar is fully contained by an HTML5 Nav tag. Inside a
+                recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the
+                navigations links. You can align these links to the left or right.</div>
+            <hr>
+            <div class="component-title bold-font-weight">Fixed Navigation bar</div>
+            <div class="box">
+                <nav class="navbar semibold-font-weight">
+                    <a class="nav-logo nav-link link-no-style" href="">LOGO</a>
+                    <a class="nav-link link-no-style" href="">Home</a>
+                    <a class="nav-link link-no-style active" href="">Products</a>
+                    <i class="far fa-user-circle nav-link nav-icon"></i>
+                </nav>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520fixed%2520semibold-font-weight%2522%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-logo%2520nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520LOGO%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520Home%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2520active%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520Products%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-user-circle%2520nav-link%2520nav-icon%2522%253E%253C%252Fi%253E%250A%253C%252Fnav%253E%250A"
+                    style="width: 542px; height: 287px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="component-title bold-font-weight">Standard Navigation bar</div>
+            <div class="box">
+                <nav class="navbar semibold-font-weight color">
+                    <i class="fas fa-bars nav-link link-no-style"></i>
+                    <a class="nav-link link-no-style" href="">Home</a>
+                    <div class="nav-right-items">
+                        <i class="fas fa-download nav-link nav-icon"></i>
+                    </div>
+                </nav>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520semibold-font-weight%2520color%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520nav-link%2520link-no-style%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520Home%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-right-items%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2520nav-link%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
+                    style="width: 532px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+</body>
+
+</html>

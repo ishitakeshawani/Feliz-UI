@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ishita Keshawani" />
+    <meta name="description" content="List page of Feliz UI">
+    <link rel="stylesheet" href="/styles/page.css">
+    <title>Lists</title>
+</head>
+
+<body>
+    <nav class="navbar semibold-font-weight">
+        <a class="nav-link link-no-style" href="/index.html">Home</a>
+        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
+        <i class="far fa-moon nav-link"></i>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="aside-component">
+            <div class="drawer-header regular-font-weight">Components</div>
+            <div>
+                <div class="drawer-items">
+                    <a class="link-no-style" href="avatar.html">Avatar</a>
+                    <a class="link-no-style" href="alert.html">Alert</a>
+                    <a class="link-no-style" href="badge.html">Badge</a>
+                    <a class="link-no-style" href="button.html">Button</a>
+                    <a class="link-no-style" href="card.html">Card</a>
+                    <a class="link-no-style" href="image.html">Image</a>
+                    <a class="link-no-style" href="input.html">Input</a>
+                    <a class="link-no-style" href="textutilities.html">Text Utilities</a>
+                    <a class="link-no-style active-item" href="list.html">List</a>
+                </div>
+            </div>
+        </aside>
+
+        <div class="component-section">
+            <div class="component-title bold-font-weight">List</div>
+            <p class="component-desc regular-font-weight">Lists are continuous, vertical indexes of text or images. They
+                are composed of items containing primary and supplemental actions, which are represented by icons and
+                text.</p>
+            <hr>
+            <div class="component-title bold-font-weight">Normal List</div>
+            <div class="simple-box">
+                <ul class="list">
+                    <li>A first item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                    <li>A fourth item</li>
+                </ul>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=125%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cli%253EA%2520first%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EA%2520second%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EA%2520third%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EA%2520fouth%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                    style="width: 278px; height: 158px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="component-title bold-font-weight">Stacked List</div>
+            <div class="simple-box">
+                <ul class="stacked-list">
+                    <li class="list-item">A first item</li>
+                    <li class="list-item">A second item</li>
+                    <li class="list-item">A third item</li>
+                    <li class="list-item">A fourth item</li>
+                </ul>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=125%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EA%2520first%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EA%2520second%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EA%2520third%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EA%2520fouth%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                    style="width: 450px; height: 158px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="component-title bold-font-weight">Nested List</div>
+            <div class="simple-box">
+                <ul class="list">
+                    <li>A first item</li>
+                    <li>A second item</li>
+                    <ul class="nested-list">
+                        <li>First item</li>
+                        <li>Second item</li>
+                    </ul>
+                    <li>A third item</li>
+                    <li>A fourth item</li>
+                </ul>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cli%253EA%2520first%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EA%2520second%2520item%253C%252Fli%253E%250A%2520%2520%253Cul%2520class%253D%2522nested-list%2522%253E%250A%2520%2520%2520%2520%253Cli%253EFirst%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ESecond%2520item%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cli%253EA%2520third%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253EA%2520fourth%2520item%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+                    style="width: 292px; height: 247px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+</body>
+
+</html>

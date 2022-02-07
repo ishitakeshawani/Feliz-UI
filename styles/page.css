@@ -10,6 +10,8 @@
 @import url(card.css);
 @import url(image.css);
 @import url(input.css);
+@import url(textutilities.css);
+@import url(list.css);
 
 
 .component-title {
@@ -41,6 +43,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.simple-box{
+  background-color: #f7f6f9;
+  padding: 1rem;
+  box-shadow: 0 0 #0000, inset 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 

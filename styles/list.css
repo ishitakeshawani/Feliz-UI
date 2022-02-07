@@ -1,0 +1,45 @@
+.list {
+  list-style: none;
+  border: 1px solid var(--black);
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: var(--black);
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  background-color: var(--lightBlue);
+}
+
+.list li {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list li:hover {
+  color: var(--primary-color);
+}
+
+.stacked-list {
+  list-style: none;
+  border: 1px solid var(--black);
+  font-size: 1.2rem;
+  color: var(--black);
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  background-color: var(--lightBlue);
+}
+
+.list-item {
+  border-bottom: 1px solid var(--black);
+  padding: 1rem 2rem;
+}
+
+.list-item:hover {
+  color: var(--primary-color);
+}
+
+.nested-list {
+  list-style: none;
+  padding-left: 1rem;
+}

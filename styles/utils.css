@@ -62,3 +62,8 @@ h1 {
     align-items: flex-start;
     display: flex;
   }
+
+  .end-page{
+    margin-top: auto;
+    color: red;
+  }

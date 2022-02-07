@@ -75,22 +75,8 @@
   border-radius: 10px;
 }
 
-.linkTo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.linkToNext,
-.linkToPrev {
-  color: var(--textColor);
-  font-size: 1.2rem;
-  text-decoration: underline;
-}
-
-.linkToPrev:hover,
-.linkToNext:hover {
-  color: var(--primary-color);
+.linkTo{
+  display: none;
 }
 
 .link-no-style {
@@ -114,4 +100,22 @@
   .component-section {
     margin-right: 1rem;
   }
+  .linkTo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .linkToNext,
+  .linkToPrev {
+    color: var(--textColor);
+    font-size: 1.2rem;
+    text-decoration: underline;
+  }
+  
+  .linkToPrev:hover,
+  .linkToNext:hover {
+    color: var(--primary-color);
+  }
+  
 }

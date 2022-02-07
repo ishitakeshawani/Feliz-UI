@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Ishita Keshawani" />
-    <meta name="description" content="Badge page of Feliz UI">
-    <title>Badge</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/styles/page.css" />
-  </head>
 
-  <body>
-    <nav class="navbar semibold-font-weight">
-      <a class="nav-link link-no-style" href="/index.html">Home</a>
-      <a class="nav-link link-no-style active" href="avatar.html"
-        >Documentation</a
-      >
-      <a class="nav-link nav-icon" href="https://github.com/ishitakeshawani/Feliz-UI"><i class="fab fa-github"></i></a>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Ishita Keshawani" />
+  <meta name="description" content="Badge page of Feliz UI">
+  <title>Badge</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles/page.css" />
+</head>
+
+<body>
+  <nav class="navbar semibold-font-weight">
+    <a class="nav-link link-no-style" href="/index.html">Home</a>
+    <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
+    <a class="nav-link nav-icon" href="https://github.com/ishitakeshawani/Feliz-UI"><i class="fab fa-github"></i></a>
+  </nav>
 
 
   <div class="drawer-container">
@@ -39,94 +34,88 @@
           <a class="link-no-style" href="card.html">Card</a>
           <a class="link-no-style" href="grid.html">Grid</a>
           <a class="link-no-style" href="image.html">Image</a>
-          <a class="link-no-style" href="input.html">Input</a> 
+          <a class="link-no-style" href="input.html">Input</a>
           <a class="link-no-style" href="list.html">List</a>
           <a class="link-no-style" href="modal.html">Modal</a>
           <a class="link-no-style" href="navigation.html">Navigation</a>
           <a class="link-no-style" href="rate.html">Rate</a>
           <a class="link-no-style" href="toast.html">Toast</a>
           <a class="link-no-style" href="textutilities.html">Text Utilities</a>
-          </div>
         </div>
-      </aside>
+      </div>
+    </aside>
 
-      <div class="component-section">
-        <div class="component-title bold-font-weight">Badge</div>
-        <div class="component-desc regular-font-weight">
-          Badges are small circles, positioned either at top-right or
-          bottom-right of the parent component. Badge can be used to display
-          numbers, online / offline status, depending on where they are used.
+    <div class="component-section">
+      <div class="component-title bold-font-weight">Badge</div>
+      <div class="component-desc regular-font-weight">
+        Badges are small circles, positioned either at top-right or
+        bottom-right of the parent component. Badge can be used to display
+        numbers, online / offline status, depending on where they are used.
+      </div>
+      <hr />
+      <div class="component-title bold-font-weight">Profile Badge</div>
+      <div class="component-desc regular-font-weight">
+        Profile Badge is used to show the current status of a user.
+      </div>
+      <div class="box">
+        <div class="badge">
+          <img class="avatar avatar-md" src="https://i.pravatar.cc/100" alt="profile badge" />
+          <div class="badge-online"></div>
         </div>
-        <hr />
-        <div class="component-title bold-font-weight">Profile Badge</div>
-        <div class="component-desc regular-font-weight">
-          Profile Badge is used to show the current status of a user.
+        <div class="badge">
+          <img class="avatar avatar-md" src="https://i.pravatar.cc/100" alt="profile badge" />
+          <div class="badge-offline"></div>
         </div>
-        <div class="box">
-          <div class="badge">
-            <img
-              class="avatar avatar-md"
-              src="https://i.pravatar.cc/100"
-              alt="profile badge"
-            />
-            <div class="badge-online"></div>
-          </div>
-          <div class="badge">
-            <img
-              class="avatar avatar-md"
-              src="https://i.pravatar.cc/100"
-              alt="profile badge"
-            />
-            <div class="badge-offline"></div>
-          </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=673&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="
+      </div>
+      <div class="code-snippet">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=673&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522profile%2520badge%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
               width: 917px;
               height: 288px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+            " sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr />
+      <div class="component-title bold-font-weight">Number Badge</div>
+      <div class="component-desc regular-font-weight">
+        Number Badge is used to show the no. of items present in the parent
+        component.
+      </div>
+      <div class="box">
+        <div>
+          <i class="fas fa-envelope fa-2x">
+            <span class="number-badge">2</span></i>
         </div>
-        <hr />
-        <div class="component-title bold-font-weight">Number Badge</div>
-        <div class="component-desc regular-font-weight">
-          Number Badge is used to show the no. of items present in the parent
-          component.
+        <div>
+          <p class="component-desc regular-font-weight">
+            Text with badge <span class="number-badge">3</span>
+          </p>
         </div>
-        <div class="box">
-          <div>
-            <i class="fas fa-envelope fa-2x">
-              <span class="number-badge">2</span></i
-            >
-          </div>
-          <div>
-            <p class="component-desc regular-font-weight">
-              Text with badge <span class="number-badge">3</span>
-            </p>
-          </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=673&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-2x%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522component-desc%2522%253EText%2520with%2520badge%253Cspan%2520class%253D%2522number-badge%2522%253E3%253C%252Fspan%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-            style="
+      </div>
+      <div class="code-snippet">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=673&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-2x%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E2%253C%252Fspan%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522component-desc%2522%253EText%2520with%2520badge%253Cspan%2520class%253D%2522number-badge%2522%253E3%253C%252Fspan%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+          style="
               width: 833px;
               height: 269px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
+            " sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <div class="linkTo">
+        <a href="/pages/alert.html" class="link-no-style linkToPrev regular-font-weight">Alert</a>
+        <a href="/pages/button.html" class="link-no-style linkToNext regular-font-weight">Button</a>
       </div>
     </div>
-  </body>
+
+  </div>
+
+</body>
+
 </html>

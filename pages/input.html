@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ishita Keshawani" />
+    <meta name="description" content="Input page of Feliz UI">
+    <link rel="stylesheet" href="/styles/page.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <nav class="navbar semibold-font-weight">
+        <a class="nav-link link-no-style" href="/index.html">Home</a>
+        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
+        <i class="far fa-moon nav-link"></i>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="aside-component">
+            <div class="drawer-header regular-font-weight">Components</div>
+            <div>
+                <div class="drawer-items">
+                    <a class="link-no-style" href="avatar.html">Avatar</a>
+                    <a class="link-no-style" href="alert.html">Alert</a>
+                    <a class="link-no-style" href="badge.html">Badge</a>
+                    <a class="link-no-style" href="button.html">Button</a>
+                    <a class="link-no-style" href="card.html">Card</a>
+                    <a class="link-no-style" href="image.html">Image</a>
+                    <a class="link-no-style active-item" href="input.html">Input</a>
+                </div>
+            </div>
+        </aside>
+
+        <div class="component-section">
+            <div class="component-title bold-font-weight">Input</div>
+            <p class="component-desc regular-font-weight">Inputs are necessary for user interaction with the website.
+                Inputs are used to take information from the user, and then save the data to the server, accordingly.
+            </p>
+            <div class="box">
+                <input class="input" type="text">
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%253E"
+                    style="width: 300px; height: 63px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <div class="component-title bold-font-weight">Input with validation and errors style</div>
+            <p class="component-desc regular-font-weight">We can add validations in input and show relevant erros.</p>
+            <div class="box flex-col">
+                <div class="input-group flex-col">
+                    <label class="input-label bold-font-weight">Username *</label>
+                    <input class="input" type="text">
+                </div>
+                <div class="input-group flex-col">
+                    <label class="input-label bold-font-weight red">Password *</label>
+                    <input class="input-red" type="text">
+                    <div class="error-message red">
+                        Length of Password should be more than 6.
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input-group%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520bold-font-weight%2522%253EUsername%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520bold-font-weight%2520red%2522%253EPassword%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-red%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2520red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Length%2520of%2520Password%2520should%2520be%2520more%2520than%25206.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 932px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <div class="component-title bold-font-weight">Radio</div>
+            <p class="component-desc regular-font-weight">Radio buttons allow the user to select one option from a set.
+            </p>
+            <div class="box">
+                <label for="radio-1">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    phone
+                </label>
+                <label for="radio-2">
+                    <input id="radio-2" name="radio" type="radio">
+                    laptop
+                </label>
+                <label for="radio-3">
+                    <input id="radio-3" name="radio" type="radio">
+                    remote
+                </label>
+            </div>
+            <div class="code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=735&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520phone%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520laptop%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522radio-3%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520remote%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E"
+                    style="width: 685px; height: 224px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+</body>
+
+</html>

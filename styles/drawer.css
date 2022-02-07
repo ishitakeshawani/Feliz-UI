@@ -1,6 +1,6 @@
 .drawer-container {
   display: flex;
-  box-shadow: 0 4px 4px 0 rgba(0, 0.5, 0.5, 0.05);;
+  box-shadow: 0 4px 4px 0 rgba(0, 0.5, 0.5, 0.05);
 }
 
 .aside-component {

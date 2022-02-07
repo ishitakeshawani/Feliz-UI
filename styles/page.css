@@ -13,6 +13,9 @@
 @import url(textutilities.css);
 @import url(list.css);
 @import url(modal.css);
+@import url(rate.css);
+@import url(toast.css);
+@import url(grid.css);
 
 
 .component-title {

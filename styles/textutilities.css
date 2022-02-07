@@ -1,0 +1,35 @@
+.small-text{
+    font-size: small;
+}
+
+.medium-text{
+    font-size: medium;
+}
+
+.large-text{
+    font-size: large;
+}
+
+.gray-text{
+    color: var(--darkGray);
+}
+
+.blue-text{
+    color: var(--royalBlue);
+}
+
+.blue-violet-text{
+    color: var(--blueViolet);
+}
+
+.left-text{
+    text-align: left;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}

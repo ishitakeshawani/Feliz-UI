@@ -1,12 +1,14 @@
 .drawer-container {
   display: flex;
-  box-shadow: 0 4px 4px 0 rgba(0, 0.5, 0.5, 0.05);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0.5, 0.5, 0.05); */
+  width: 100%;
 }
 
 .aside-component {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--gray);
+  background-color: var(--gray);
 }
 
 .drawer-header {
@@ -18,9 +20,13 @@
   display: block;
   font-weight: 500;
   color: var(--text-color);
-  padding: 0.8rem 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
   font-size: 1.1rem;
   border-radius: 5px;
+  width: 18rem;
 }
 
 .active-item {
@@ -29,7 +35,7 @@
 }
 
 .drawer-items a:hover {
-  background-color: var(--gray);
+  background-color: var(--white);
   cursor: pointer;
 }
 

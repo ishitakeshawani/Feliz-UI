@@ -28,7 +28,8 @@
 .component-section {
   margin: 1rem;
   text-align: left;
-  margin-right: 5rem;
+  margin-right: 3rem;
+  width: 100%;
 }
 
 .component-desc {

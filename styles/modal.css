@@ -45,3 +45,14 @@
     flex-direction: column;
   }
   
+
+
+@media only screen and (max-width:800px) {
+  .modal-img{
+    width: 10rem;
+    height: 10rem;
+  }
+  .modal-content{
+    width: 60%;
+  }
+  }

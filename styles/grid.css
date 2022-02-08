@@ -25,3 +25,9 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
+@media only screen and (max-width:800px) {
+  .grid-item{
+      width: 7rem;
+  }
+}

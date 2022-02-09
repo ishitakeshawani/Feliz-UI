@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 0 5rem;
+  padding: 3rem 5rem;
   align-items: center;
   justify-content: center;
   min-height: 70vh;
@@ -100,7 +100,6 @@
   .home-page {
     align-items: center;
     grid-template-columns: 1fr;
-    padding: 1.5rem;
   }
   .home-page-description {
     font-size: 1rem;
@@ -121,7 +120,7 @@
     min-height: 10vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
   }
   .installation {
     justify-content: center;

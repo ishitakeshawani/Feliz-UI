@@ -2,13 +2,25 @@
   display: flex;
   /* box-shadow: 0 4px 4px 0 rgba(0, 0.5, 0.5, 0.05); */
   width: 100%;
+  padding-top: 4rem;
 }
 
 .aside-component {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--gray);
-  background-color: var(--gray);
+  overscroll-behavior: contain;
+  position: sticky;
+  top: 4.2rem;
+  width: 280px;
+  height: calc(100vh - 6.125rem);
+  flex-shrink: 0;
+}
+
+.aside-component:hover{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100vh - 6.125rem);
 }
 
 .drawer-header {

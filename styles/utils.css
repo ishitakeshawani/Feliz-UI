@@ -73,3 +73,11 @@ h1 {
   .small-fontsize{
     font-size: 0.8rem;
   }
+
+  .gray-color{
+    color: #A1AAB4;
+  }
+
+  .pink-color{
+    color: #FC2678;
+  }

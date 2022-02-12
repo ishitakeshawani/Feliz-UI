@@ -1,0 +1,16 @@
+.slider {
+  opacity: 0.9;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  width: 30rem;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.range {
+  display: flex;
+  justify-content: space-between;
+  width: 29rem;
+}

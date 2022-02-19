@@ -1,89 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ishita Keshawani" />
-    <meta name="description" content="Toast page of Feliz UI">
-    <link rel="stylesheet" href="/styles/page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Toast page of Feliz UI" />
+    <link rel="stylesheet" href="/styles/page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Toast</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar fixed semibold-font-weight">
-        <a class="nav-link link-no-style" href="/index.html">Home</a>
-        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
-        <a class="nav-link nav-icon" href="https://github.com/ishitakeshawani/Feliz-UI"><i
-                class="fab fa-github"></i></a>
+      <a class="nav-link link-no-style" href="/index.html">Home</a>
+      <a class="nav-link link-no-style active" href="avatar.html"
+        >Documentation</a
+      >
+      <a
+        class="nav-link nav-icon"
+        href="https://github.com/ishitakeshawani/Feliz-UI"
+        ><i class="fab fa-github"></i
+      ></a>
     </nav>
 
     <div class="drawer-container">
-        <aside class="aside-component">
-            <div class="drawer-header semibold-font-weight">Components</div>
-            <div class="drawer-items">
-                <a class="link-no-style" href="avatar.html">Avatar</a>
-                <a class="link-no-style" href="alert.html">Alert</a>
-                <a class="link-no-style" href="badge.html">Badge</a>
-                <a class="link-no-style" href="button.html">Button</a>
-                <a class="link-no-style" href="card.html">Card</a>
-                <a class="link-no-style" href="grid.html">Grid</a>
-                <a class="link-no-style" href="image.html">Image</a>
-                <a class="link-no-style" href="input.html">Input</a>
-                <a class="link-no-style" href="list.html">List</a>
-                <a class="link-no-style" href="navigation.html">Navigation</a>
-                <a class="link-no-style" href="modal.html">Modal</a>
-                <a class="link-no-style" href="rate.html">Rate</a>
-                <a class="link-no-style" href="slider.html">Slider</a>
-                <a class="link-no-style active-item" href="toast.html">Toast</a>
-                <a class="link-no-style" href="textutilities.html">Text Utilities</a>
-            </div>
-
-        </aside>
-
-        <div class="component-section">
-            <div class="component-title bold-font-weight">Toasts</div>
-            <p class="component-desc regular-font-weight">Toast message or snackbar is used to give some feedback to the
-                user.</p>
-            <div class="component-title bold-font-weight">Success Toasts</div>
-            <div class="box">
-                <div class="success-toast">
-                    <div>Successfully add to the cart!</div>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%253Cdiv%253ESuccessfully%2520add%2520to%2520the%2520cart%21%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 443px; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="component-title bold-font-weight">Success Toasts</div>
-            <div class="box">
-                <div class="error-toast">
-                    <div>Some error occurred!
-                    </div>
-                    <i class="fas fa-exclamation-triangle"></i>
-                </div>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522error-toast%2522%253E%250A%2520%2520%253Cdiv%253ESome%2520error%2520occurred%21%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 472px; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="linkTo">
-                <a href="/pages/slider.html" class="link-no-style linkToPrev regular-font-weight">Slider</a>
-                <a href="/pages/textutilities.html" class="link-no-style linkToNext regular-font-weight">Text
-                    Utilities</a>
-            </div>
+      <aside class="aside-component">
+        <div class="drawer-header semibold-font-weight">Components</div>
+        <div class="drawer-items">
+          <a class="link-no-style" href="avatar.html">Avatar</a>
+          <a class="link-no-style" href="alert.html">Alert</a>
+          <a class="link-no-style" href="badge.html">Badge</a>
+          <a class="link-no-style" href="button.html">Button</a>
+          <a class="link-no-style" href="card.html">Card</a>
+          <a class="link-no-style" href="grid.html">Grid</a>
+          <a class="link-no-style" href="image.html">Image</a>
+          <a class="link-no-style" href="input.html">Input</a>
+          <a class="link-no-style" href="list.html">List</a>
+          <a class="link-no-style" href="navigation.html">Navigation</a>
+          <a class="link-no-style" href="modal.html">Modal</a>
+          <a class="link-no-style" href="rate.html">Rate</a>
+          <a class="link-no-style" href="slider.html">Slider</a>
+          <a class="link-no-style active-item" href="toast.html">Toast</a>
+          <a class="link-no-style" href="textutilities.html">Text Utilities</a>
         </div>
-</body>
+      </aside>
 
+      <div class="component-section">
+        <div class="component-title bold-font-weight">Toasts</div>
+        <p class="component-desc regular-font-weight">
+          Toast message or snackbar is used to give some feedback to the user.
+        </p>
+        <div class="component-title bold-font-weight">Success Toasts</div>
+        <div class="box">
+          <div class="success-toast">
+            <div>Successfully add to the cart!</div>
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%253Cdiv%253ESuccessfully%2520add%2520to%2520the%2520cart%21%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 443px;
+              height: 144px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="component-title bold-font-weight">Success Toasts</div>
+        <div class="box">
+          <div class="error-toast">
+            <div>Some error occurred!</div>
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522error-toast%2522%253E%250A%2520%2520%253Cdiv%253ESome%2520error%2520occurred%21%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 472px;
+              height: 144px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="linkTo">
+          <a
+            href="/pages/slider.html"
+            class="link-no-style linkToPrev regular-font-weight"
+            >Slider</a
+          >
+          <a
+            href="/pages/textutilities.html"
+            class="link-no-style linkToNext regular-font-weight"
+            >Text Utilities</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="footer flex-col-gap">
+      <div class="footer-items flex-col-gap">
+        <div class="made-by">
+          Made with <i class="fas fa-heart footer-icon"></i> By Ishita Keshawani
+        </div>
+        <div>
+          <a href="https://github.com/ishitakeshawani/Feliz-UI"
+            ><i class="fab fa-github footer-social-icon"></i
+          ></a>
+          <a href="https://twitter.com/ishitakeshawani"
+            ><i class="fab fa-twitter footer-social-icon"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ishitakeshawani/"
+            ><i class="fab fa-linkedin footer-social-icon"></i
+          ></a>
+        </div>
+        <div class="copy-right">© 2022 Stunners Hub</div>
+      </div>
+    </footer>
+  </body>
 </html>

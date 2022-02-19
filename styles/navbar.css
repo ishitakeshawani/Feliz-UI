@@ -49,7 +49,7 @@
 
 
 .nav-icon{
-  width: 1.5rem;
+  font-size: 2rem;
   margin-left: auto;
 }
 
@@ -114,5 +114,8 @@
   }
   .nav-logo{
     display: none;
+  }
+  .nav-icon{
+    font-size: 1.2rem;
   }
 }

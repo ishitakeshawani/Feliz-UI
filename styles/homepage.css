@@ -5,7 +5,7 @@
   padding: 3rem 5rem;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
+  /* min-height: 70vh; */
   width: 100%;
   height: max-content;
 }
@@ -18,7 +18,8 @@
 }
 
 .description {
-  margin: 1rem 0;
+  margin: 1.6rem 0;
+  line-height: 30px;
 }
 
 .desc-title {
@@ -75,6 +76,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
+  line-height: 30px;
 }
 
 .installation-img {
@@ -106,6 +108,7 @@
   }
   .desc-title {
     font-size: 1.2rem;
+    margin: 1rem 0;
   }
   .installation-desc {
     align-items: flex-start;
@@ -117,16 +120,19 @@
     display: none;
   }
   .home-page {
-    min-height: 10vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 0 2rem;
   }
   .installation {
     justify-content: center;
-    min-height: 10vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     padding: 0;
+    line-height: 25px;
+  }
+  .description {
+    line-height: 25px;
+  }
+  .lottie-anim {
+    margin: 2rem 0 0 0;
   }
 }

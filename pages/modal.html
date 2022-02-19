@@ -1,80 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ishita Keshawani" />
-    <meta name="description" content="Modal page of Feliz UI">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/styles/page.css">
+    <meta name="description" content="Modal page of Feliz UI" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles/page.css" />
     <title>Modal</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar fixed semibold-font-weight">
-        <a class="nav-link link-no-style" href="/index.html">Home</a>
-        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
-        <a class="nav-link nav-icon" href="https://github.com/ishitakeshawani/Feliz-UI"><i
-                class="fab fa-github"></i></a>
+      <a class="nav-link link-no-style" href="/index.html">Home</a>
+      <a class="nav-link link-no-style active" href="avatar.html"
+        >Documentation</a
+      >
+      <a
+        class="nav-link nav-icon"
+        href="https://github.com/ishitakeshawani/Feliz-UI"
+        ><i class="fab fa-github"></i
+      ></a>
     </nav>
 
     <div class="drawer-container">
-        <aside class="aside-component">
-            <div class="drawer-header semibold-font-weight">Components</div>
-            <div>
-                <div class="drawer-items">
-                    <a class="link-no-style" href="avatar.html">Avatar</a>
-                    <a class="link-no-style" href="alert.html">Alert</a>
-                    <a class="link-no-style" href="badge.html">Badge</a>
-                    <a class="link-no-style" href="button.html">Button</a>
-                    <a class="link-no-style" href="card.html">Card</a>
-                    <a class="link-no-style" href="grid.html">Grid</a>
-                    <a class="link-no-style" href="image.html">Image</a>
-                    <a class="link-no-style" href="input.html">Input</a>
-                    <a class="link-no-style" href="list.html">List</a>
-                    <a class="link-no-style active-item" href="modal.html">Modal</a>
-                    <a class="link-no-style" href="navigation.html">Navigation</a>
-                    <a class="link-no-style" href="rate.html">Rate</a>
-                    <a class="link-no-style" href="slider.html">Slider</a>
-                    <a class="link-no-style" href="toast.html">Toast</a>
-                    <a class="link-no-style" href="textutilities.html">Text Utilities</a>
-                </div>
-            </div>
-        </aside>
-
-        <div class="component-section">
-            <div class="component-title bold-font-weight">Modal</div>
-            <p class="component-desc regular-font-weight">
-                A modal is a dialog box/popup window that is displayed on top of the current page: Open Modal.
-            </p>
-            <div class="box">
-                <button id="myBtn" class="modal-btn">Open Modal</button>
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <img src="/assets/images/phone.png" class="modal-img" alt="modal-img">
-                        <div>Google Pixel - Black</div>
-                        <button class="close-btn">Add to cart</button>
-                    </div>
-                </div>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%2509%2509%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522modal-btn%2522%253EOpen%2520Modal%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522myModal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fphone.png%2522%2520alt%253D%2522modal-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EGoogle%2520Pixel%2520-%2520Black%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E"
-                    style="width:100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="linkTo">
-                <a href="/pages/list.html" class="link-no-style linkToPrev regular-font-weight">List</a>
-                <a href="/pages/navigation.html" class="link-no-style linkToNext regular-font-weight">Navigation</a>
-            </div>
+      <aside class="aside-component">
+        <div class="drawer-header semibold-font-weight">Components</div>
+        <div>
+          <div class="drawer-items">
+            <a class="link-no-style" href="avatar.html">Avatar</a>
+            <a class="link-no-style" href="alert.html">Alert</a>
+            <a class="link-no-style" href="badge.html">Badge</a>
+            <a class="link-no-style" href="button.html">Button</a>
+            <a class="link-no-style" href="card.html">Card</a>
+            <a class="link-no-style" href="grid.html">Grid</a>
+            <a class="link-no-style" href="image.html">Image</a>
+            <a class="link-no-style" href="input.html">Input</a>
+            <a class="link-no-style" href="list.html">List</a>
+            <a class="link-no-style active-item" href="modal.html">Modal</a>
+            <a class="link-no-style" href="navigation.html">Navigation</a>
+            <a class="link-no-style" href="rate.html">Rate</a>
+            <a class="link-no-style" href="slider.html">Slider</a>
+            <a class="link-no-style" href="toast.html">Toast</a>
+            <a class="link-no-style" href="textutilities.html"
+              >Text Utilities</a
+            >
+          </div>
         </div>
-        <script src="/JS/modal.js"></script>
+      </aside>
 
-</body>
-
+      <div class="component-section">
+        <div class="component-title bold-font-weight">Modal</div>
+        <p class="component-desc regular-font-weight">
+          A modal is a dialog box/popup window that is displayed on top of the
+          current page: Open Modal.
+        </p>
+        <div class="box">
+          <button id="myBtn" class="modal-btn">Open Modal</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <img
+                src="/assets/images/phone.png"
+                class="modal-img"
+                alt="modal-img"
+              />
+              <div>Google Pixel - Black</div>
+              <button class="close-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=790&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=16px&lh=125%25&si=false&es=2x&wm=false&code=%2509%2509%253Cbutton%2520id%253D%2522myBtn%2522%2520class%253D%2522modal-btn%2522%253EOpen%2520Modal%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522myModal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fphone.png%2522%2520alt%253D%2522modal-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EGoogle%2520Pixel%2520-%2520Black%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: auto;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="linkTo">
+          <a
+            href="/pages/list.html"
+            class="link-no-style linkToPrev regular-font-weight"
+            >List</a
+          >
+          <a
+            href="/pages/navigation.html"
+            class="link-no-style linkToNext regular-font-weight"
+            >Navigation</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="footer flex-col-gap">
+      <div class="footer-items flex-col-gap">
+        <div class="made-by">
+          Made with <i class="fas fa-heart footer-icon"></i> By Ishita Keshawani
+        </div>
+        <div>
+          <a href="https://github.com/ishitakeshawani/Feliz-UI"
+            ><i class="fab fa-github footer-social-icon"></i
+          ></a>
+          <a href="https://twitter.com/ishitakeshawani"
+            ><i class="fab fa-twitter footer-social-icon"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ishitakeshawani/"
+            ><i class="fab fa-linkedin footer-social-icon"></i
+          ></a>
+        </div>
+        <div class="copy-right">© 2022 Stunners Hub</div>
+      </div>
+    </footer>
+    <script src="/JS/modal.js"></script>
+  </body>
 </html>

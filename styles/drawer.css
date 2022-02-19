@@ -11,7 +11,7 @@
   border-right: 1px solid var(--gray);
   overscroll-behavior: contain;
   position: sticky;
-  top: 4.2rem;
+  top: 5rem;
   width: 280px;
   height: calc(100vh - 6.125rem);
   flex-shrink: 0;
@@ -46,7 +46,7 @@
 }
 
 .drawer-items a:hover {
-  background-color: var(--white);
+  background-color: var(--gray);
   cursor: pointer;
 }
 

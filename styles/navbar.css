@@ -51,6 +51,7 @@
 .nav-icon{
   font-size: 2rem;
   margin-left: auto;
+  width: 1.5rem;
 }
 
 .nav-icon-link{
@@ -117,5 +118,6 @@
   }
   .nav-icon{
     font-size: 1.2rem;
+    width: 1rem;
   }
 }

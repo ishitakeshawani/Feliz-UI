@@ -136,7 +136,7 @@
   left: 270px;
   vertical-align: top;
   cursor: pointer;
-  color: var(--black);
+  color: var(--white);
   font-size: 1.3rem;
 }
 
@@ -189,4 +189,49 @@
 .card-btn {
   background-color: #fc2678;
   width: 81%;
+}
+
+@media only screen and (max-width:43em) {
+  .wrapper{
+    overflow-x: hidden;
+  }
+  .card{
+    width: 14rem;
+  }
+  .card-img{
+    width: 14rem;
+    height: 8rem;
+  }
+  .card-footer{
+    padding: 5px;
+  }
+  .card-icon{
+    padding: 5px;
+  }
+  .card-badge{
+    bottom: 7rem;
+    left: 1rem;
+    width: 4rem;
+  }
+  .card-dismiss{
+    bottom: 7rem;
+    left: 12rem;
+  }
+  .horizontal-card-img{
+    width: 7rem;
+    height: auto;
+    object-fit: cover;
+  }
+  .card-header-title{
+    font-size: 0.9rem;
+  }
+  .author-name{
+    font-size: 0.8rem;
+  }
+  .product-card-footer{
+    padding-left: 1px;
+  }
+  .hide{
+    display: none;
+  }
 }

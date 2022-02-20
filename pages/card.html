@@ -17,361 +17,371 @@
   </head>
 
   <body>
-    <nav class="navbar fixed semibold-font-weight">
-      <a class="nav-link link-no-style" href="/index.html">Home</a>
-      <a class="nav-link link-no-style active" href="avatar.html"
-        >Documentation</a
-      >
-      <a
-        class="nav-link nav-icon"
-        href="https://github.com/ishitakeshawani/Feliz-UI"
-        ><i class="fab fa-github"></i
-      ></a>
-    </nav>
+    <div class="wrapper">
+      <nav class="navbar fixed semibold-font-weight">
+        <a class="nav-link link-no-style" href="/index.html">Home</a>
+        <a class="nav-link link-no-style active" href="avatar.html"
+          >Documentation</a
+        >
+        <a
+          class="nav-link nav-icon"
+          href="https://github.com/ishitakeshawani/Feliz-UI"
+          ><i class="fab fa-github"></i
+        ></a>
+      </nav>
 
-    <div class="drawer-container">
-      <aside class="aside-component">
-        <div class="drawer-header semibold-font-weight">Components</div>
-        <div>
-          <div class="drawer-items">
-            <a class="link-no-style" href="avatar.html">Avatar</a>
-            <a class="link-no-style" href="alert.html">Alert</a>
-            <a class="link-no-style" href="badge.html">Badge</a>
-            <a class="link-no-style" href="button.html">Button</a>
-            <a class="link-no-style active-item" href="card.html">Card</a>
-            <a class="link-no-style" href="grid.html">Grid</a>
-            <a class="link-no-style" href="image.html">Image</a>
-            <a class="link-no-style" href="input.html">Input</a>
-            <a class="link-no-style" href="textutilities.html"
-              >Text Utilities</a
+      <div class="drawer-container">
+        <aside class="aside-component">
+          <div class="drawer-header semibold-font-weight">Components</div>
+          <div>
+            <div class="drawer-items">
+              <a class="link-no-style" href="avatar.html">Avatar</a>
+              <a class="link-no-style" href="alert.html">Alert</a>
+              <a class="link-no-style" href="badge.html">Badge</a>
+              <a class="link-no-style" href="button.html">Button</a>
+              <a class="link-no-style active-item" href="card.html">Card</a>
+              <a class="link-no-style" href="grid.html">Grid</a>
+              <a class="link-no-style" href="image.html">Image</a>
+              <a class="link-no-style" href="input.html">Input</a>
+              <a class="link-no-style" href="textutilities.html"
+                >Text Utilities</a
+              >
+              <a class="link-no-style" href="list.html">List</a>
+              <a class="link-no-style" href="modal.html">Modal</a>
+              <a class="link-no-style" href="navigation.html">Navigation</a>
+              <a class="link-no-style" href="slider.html">Slider</a>
+              <a class="link-no-style" href="rate.html">Rate</a>
+              <a class="link-no-style" href="toast.html">Toast</a>
+            </div>
+          </div>
+        </aside>
+
+        <div class="component-section">
+          <div class="component-title bold-font-weight">Card</div>
+          <p class="component-desc regular-font-weight">
+            Cards are surfaces that display content and actions on a single
+            topic. They should be easy to scan for relevant and actionable
+            information. Elements, like text and images, should be placed on
+            them in a way that clearly indicates hierarchy.
+          </p>
+          <hr />
+          <div class="component-title bold-font-weight">Card with badge</div>
+          <div class="box">
+            <div class="card">
+              <div class="card-section regular-font-weight" id="card-section">
+                <img
+                  class="card-img"
+                  src="https://picsum.photos/seed/picsum/300/300"
+                  alt=""
+                />
+                <span class="card-badge">Best</span>
+                <div class="card-header">
+                  <div class="card-header-title bold-font-weight">
+                    Our Changing Planet
+                  </div>
+                  <p class="author-name">by Kurt Wagner</p>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a>READ</a>
+                <a>BOOKMARK</a>
+                <i class="far fa-heart card-icon"></i>
+                <i class="fas fa-share-alt card-icon"></i>
+                <i class="fas fa-ellipsis-v card-share card-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EBest%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253E%2520Our%2520Changing%2520Planet%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 460px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
             >
-            <a class="link-no-style" href="list.html">List</a>
-            <a class="link-no-style" href="modal.html">Modal</a>
-            <a class="link-no-style" href="navigation.html">Navigation</a>
-            <a class="link-no-style" href="slider.html">Slider</a>
-            <a class="link-no-style" href="rate.html">Rate</a>
-            <a class="link-no-style" href="toast.html">Toast</a>
+            </iframe>
           </div>
-        </div>
-      </aside>
-
-      <div class="component-section">
-        <div class="component-title bold-font-weight">Card</div>
-        <p class="component-desc regular-font-weight">
-          Cards are surfaces that display content and actions on a single topic.
-          They should be easy to scan for relevant and actionable information.
-          Elements, like text and images, should be placed on them in a way that
-          clearly indicates hierarchy.
-        </p>
-        <hr />
-        <div class="component-title bold-font-weight">Card with badge</div>
-        <div class="box">
-          <div class="card">
-            <div class="card-section regular-font-weight" id="card-section">
-              <img
-                class="card-img"
-                src="https://picsum.photos/seed/picsum/300/300"
-                alt=""
-              />
-              <span class="card-badge">Best</span>
-              <div class="card-header">
-                <div class="card-header-title bold-font-weight">
-                  Our Changing Planet
+          <div class="component-title bold-font-weight">Card with dismiss</div>
+          <div class="box">
+            <div class="card">
+              <div class="card-section regular-font-weight" id="card-section">
+                <img
+                  class="card-img"
+                  src="https://picsum.photos/seed/picsum/300/300"
+                  alt=""
+                />
+                <span class="card-dismiss"
+                  ><i class="far fa-times-circle"></i
+                ></span>
+                <div class="card-header">
+                  <div class="card-header-title bold-font-weight">
+                    Our Changing Planet
+                  </div>
+                  <p class="author-name">by Kurt Wagner</p>
                 </div>
-                <p class="author-name">by Kurt Wagner</p>
+              </div>
+              <div class="card-footer">
+                <a>READ</a>
+                <a>BOOKMARK</a>
+                <i class="far fa-heart card-icon"></i>
+                <i class="fas fa-share-alt card-icon"></i>
+                <i class="fas fa-ellipsis-v card-share card-icon"></i>
               </div>
             </div>
-            <div class="card-footer">
-              <a>READ</a>
-              <a>BOOKMARK</a>
-              <i class="far fa-heart card-icon"></i>
-              <i class="fas fa-share-alt card-icon"></i>
-              <i class="fas fa-ellipsis-v card-share card-icon"></i>
-            </div>
           </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EBest%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden; ;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-        <div class="component-title bold-font-weight">Card with dismiss</div>
-        <div class="box">
-          <div class="card">
-            <div class="card-section regular-font-weight" id="card-section">
-              <img
-                class="card-img"
-                src="https://picsum.photos/seed/picsum/300/300"
-                alt=""
-              />
-              <span class="card-dismiss"
-                ><i class="far fa-times-circle"></i
-              ></span>
-              <div class="card-header">
-                <div class="card-header-title bold-font-weight">
-                  Our Changing Planet
-                </div>
-                <p class="author-name">by Kurt Wagner</p>
-              </div>
-            </div>
-            <div class="card-footer">
-              <a>READ</a>
-              <a>BOOKMARK</a>
-              <i class="far fa-heart card-icon"></i>
-              <i class="fas fa-share-alt card-icon"></i>
-              <i class="fas fa-ellipsis-v card-share card-icon"></i>
-            </div>
-          </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-        <div class="component-title bold-font-weight">
-          Card with text overlay
-        </div>
-        <div class="box">
-          <div class="card">
-            <div class="card-section regular-font-weight" id="card-section">
-              <img
-                class="card-img"
-                src="https://picsum.photos/seed/picsum/300/300"
-                alt=""
-              />
-              <div class="card-text-overlay">
-                <div class="card-header-title bold-font-weight">
-                  Our Changing Planet
-                </div>
-                <p class="author-name">by Kurt Wagner</p>
-              </div>
-            </div>
-            <div class="card-footer">
-              <a>READ</a>
-              <a>BOOKMARK</a>
-              <i class="far fa-heart card-icon"></i>
-              <i class="fas fa-share-alt card-icon"></i>
-              <i class="fas fa-ellipsis-v card-share card-icon"></i>
-            </div>
-          </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-        <div class="component-title bold-font-weight">Text only card</div>
-        <div class="box">
-          <div class="card">
-            <div class="card-title">Our Changing Planet</div>
-            <p class="card-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-              eligendi officia velit rerum dolore eaque ut! Et tenetur cum
-              incidunt architecto illum excepturi, reprehenderit dolore quis
-              minus, rem temporibus quas!
-            </p>
-          </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ab%2520eligendi%2520officia%250A%2520%2520%2520%2520velit%2520rerum%2520dolore%2520eaque%2520ut%21%2520Et%2520tenetur%2520cum%2520incidunt%2520architecto%2520illum%250A%2520%2520%2520%2520excepturi%252C%2520reprehenderit%2520dolore%2520quis%2520minus%252C%2520rem%2520temporibus%2520quas%21%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-        <div class="component-title">Horizontal card</div>
-        <div class="box">
-          <div class="card">
-            <div
-              class="horizontal-card-section regular-font-weight"
-              id="card-section"
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253E%2520Our%2520Changing%2520Planet%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 555px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
             >
-              <img
-                class="horizontal-card-img"
-                src="https://picsum.photos/seed/picsum/300/300"
-                alt=""
-              />
-              <div class="card-header">
-                <div class="card-header-title bold-font-weight">
-                  Our Changing Planet
+            </iframe>
+          </div>
+          <div class="component-title bold-font-weight">
+            Card with text overlay
+          </div>
+          <div class="box">
+            <div class="card">
+              <div class="card-section regular-font-weight" id="card-section">
+                <img
+                  class="card-img"
+                  src="https://picsum.photos/seed/picsum/300/300"
+                  alt=""
+                />
+                <div class="card-text-overlay">
+                  <div class="card-header-title bold-font-weight">
+                    Our Changing Planet
+                  </div>
+                  <p class="author-name">by Kurt Wagner</p>
                 </div>
-                <p class="author-name">by Kurt Wagner</p>
+              </div>
+              <div class="card-footer">
+                <a>READ</a>
+                <a>BOOKMARK</a>
+                <i class="far fa-heart card-icon"></i>
+                <i class="fas fa-share-alt card-icon"></i>
+                <i class="fas fa-ellipsis-v card-share card-icon"></i>
               </div>
             </div>
-            <div class="card-footer">
-              <a>READ</a>
-              <a>BOOKMARK</a>
-              <i class="far fa-heart card-icon"></i>
-              <i class="fas fa-share-alt card-icon"></i>
-              <i class="fas fa-ellipsis-v card-share card-icon"></i>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253E%2520Our%2520Changing%2520Planet%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 433px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
+            >
+            </iframe>
+          </div>
+          <div class="component-title bold-font-weight">Text only card</div>
+          <div class="box">
+            <div class="card">
+              <div class="card-title">Our Changing Planet</div>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                eligendi officia velit rerum dolore eaque ut! Et tenetur cum
+                incidunt architecto illum excepturi, reprehenderit dolore quis
+                minus, rem temporibus quas!
+              </p>
             </div>
           </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522horizontal-card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-        <div class="component-title">Card with shadow</div>
-        <div class="box">
-          <div class="card card-box-shadow">
-            <div class="card-section regular-font-weight" id="card-section">
-              <img
-                class="card-img"
-                src="https://picsum.photos/seed/picsum/300/300"
-                alt=""
-              />
-              <div class="card-header">
-                <div class="card-header-title bold-font-weight">
-                  Our Changing Planet
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253E%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ab%2520eligendi%2520officia%2520velit%2520rerum%2520dolore%2520eaque%2520ut%21%2520Et%2520tenetur%2520cum%2520incidunt%2520architecto%2520illum%2520excepturi%252C%2520reprehenderit%2520dolore%2520quis%2520minus%252C%2520rem%2520temporibus%2520quas%21%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 80%;
+                height: 201px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
+            >
+            </iframe>
+          </div>
+          <div class="component-title">Horizontal card</div>
+          <div class="box">
+            <div class="card">
+              <div
+                class="horizontal-card-section regular-font-weight"
+                id="card-section"
+              >
+                <img
+                  class="horizontal-card-img"
+                  src="https://picsum.photos/seed/picsum/300/300"
+                  alt=""
+                />
+                <div class="card-header">
+                  <div class="card-header-title bold-font-weight">
+                    Our Changing Planet
+                  </div>
+                  <p class="author-name">by Kurt Wagner</p>
                 </div>
-                <p class="author-name">by Kurt Wagner</p>
               </div>
-            </div>
-            <div class="card-footer">
-              <a>READ</a>
-              <a>BOOKMARK</a>
-              <i class="far fa-heart card-icon"></i>
-              <i class="fas fa-share-alt card-icon"></i>
-              <i class="fas fa-ellipsis-v card-share card-icon"></i>
+              <div class="card-footer">
+                <a>READ</a>
+                <a>BOOKMARK</a>
+                <i class="far fa-heart card-icon"></i>
+                <i class="fas fa-share-alt card-icon"></i>
+                <i class="fas fa-ellipsis-v card-share card-icon"></i>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 100%;
-              height: auto;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
-
-        <div class="component-title">E-commerce card</div>
-        <div class="box">
-          <div class="card product-card">
-            <div class="card-padding">
-              <img
-                class="product-img"
-                src="/assets/images/product1.jpg"
-                alt=""
-              />
-              <div class="product-card-title bold-font-weight">
-                Nykaa Matte To Last ! <br />
-                Liquid Lipstick
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522horizontal-card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253EOur%2520Changing%2520Planet%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+              style="
+                width: 100%;
+                height: 541px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
+            >
+            </iframe>
+          </div>
+          <div class="component-title">Card with shadow</div>
+          <div class="box">
+            <div class="card card-box-shadow">
+              <div class="card-section regular-font-weight" id="card-section">
+                <img
+                  class="card-img"
+                  src="https://picsum.photos/seed/picsum/300/300"
+                  alt=""
+                />
+                <div class="card-header">
+                  <div class="card-header-title bold-font-weight">
+                    Our Changing Planet
+                  </div>
+                  <p class="author-name">by Kurt Wagner</p>
+                </div>
               </div>
-              <div class="card-mrp">
-                <span class="gray-color">MRP:</span> ₹599
+              <div class="card-footer">
+                <a>READ</a>
+                <a>BOOKMARK</a>
+                <i class="far fa-heart card-icon"></i>
+                <i class="fas fa-share-alt card-icon"></i>
+                <i class="fas fa-ellipsis-v card-share card-icon"></i>
               </div>
-              <div class="rating small-fontsize">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-            </div>
-            <div class="product-card-footer pink-color">
-              <i class="far fa-heart card-footer-icon"></i>
-              <button class="btn card-btn">Add to Cart</button>
             </div>
           </div>
-        </div>
-        <div class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520product-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-padding%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522product-img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fproduct1.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card-title%2520bold-font-weight%2522%253E%250A%2520%2520%2520%2520%2520%2520Nykaa%2520Matte%2520To%2520Last%2520%21%2520Liquid%2520Lipstick%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-mrp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray-color%2522%253EMRP%253A%253C%252Fspan%253E%2520%25E2%2582%25B9599%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2520small-fontsize%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-card-footer%2520pink-color%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-footer-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 667px;
-              height: 517px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-section%2520regular-font-weight%2522%2520id%253D%2522card-section%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fseed%252Fpicsum%252F300%252F300%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-title%2520bold-font-weight%2522%253E%2520Our%2520Changing%2520Planet%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522author-name%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Ca%253EREAD%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%253EBOOKMARK%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-share%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 432px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
+            >
+            </iframe>
+          </div>
 
-        <div class="linkTo">
-          <a
-            href="/pages/button.html"
-            class="link-no-style linkToPrev regular-font-weight"
-            >Button</a
-          >
-          <a
-            href="/pages/grid.html"
-            class="link-no-style linkToNext regular-font-weight"
-            >Grid</a
-          >
+          <div class="component-title">E-commerce card</div>
+          <div class="box">
+            <div class="card product-card">
+              <div class="card-padding">
+                <img
+                  class="product-img"
+                  src="/assets/images/product1.jpg"
+                  alt=""
+                />
+                <div class="product-card-title bold-font-weight">
+                  Nykaa Matte To Last ! <br />
+                  Liquid Lipstick
+                </div>
+                <div class="card-mrp">
+                  <span class="gray-color">MRP:</span> ₹599
+                </div>
+                <div class="rating small-fontsize">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="product-card-footer pink-color">
+                <i class="far fa-heart card-footer-icon"></i>
+                <button class="btn card-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520product-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-padding%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522product-img%2522%2520src%253D%2522%252Fassets%252Fimages%252Fproduct1.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card-title%2520bold-font-weight%2522%253E%2520Nykaa%2520Matte%2520To%2520Last%2520%21%2520%253Cbr%2520%252F%253E%2520Liquid%2520Lipstick%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-mrp%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray-color%2522%253EMRP%253A%253C%252Fspan%253E%2520%25E2%2582%25B9599%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2520small-fontsize%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-card-footer%2520pink-color%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-footer-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 525px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+              class="hide"
+            >
+            </iframe>
+          </div>
+
+          <div class="linkTo">
+            <a
+              href="/pages/button.html"
+              class="link-no-style linkToPrev regular-font-weight"
+              >Button</a
+            >
+            <a
+              href="/pages/grid.html"
+              class="link-no-style linkToNext regular-font-weight"
+              >Grid</a
+            >
+          </div>
         </div>
       </div>
+      <footer class="footer flex-col-gap">
+        <div class="footer-items flex-col-gap">
+          <div class="made-by">
+            Made with <i class="fas fa-heart footer-icon"></i> By Ishita
+            Keshawani
+          </div>
+          <div>
+            <a href="https://github.com/ishitakeshawani/Feliz-UI"
+              ><i class="fab fa-github footer-social-icon"></i
+            ></a>
+            <a href="https://twitter.com/ishitakeshawani"
+              ><i class="fab fa-twitter footer-social-icon"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ishitakeshawani/"
+              ><i class="fab fa-linkedin footer-social-icon"></i
+            ></a>
+          </div>
+          <div class="copy-right">© 2022 Stunners Hub</div>
+        </div>
+      </footer>
     </div>
-    <footer class="footer flex-col-gap">
-      <div class="footer-items flex-col-gap">
-        <div class="made-by">
-          Made with <i class="fas fa-heart footer-icon"></i> By Ishita Keshawani
-        </div>
-        <div>
-          <a href="https://github.com/ishitakeshawani/Feliz-UI"
-            ><i class="fab fa-github footer-social-icon"></i
-          ></a>
-          <a href="https://twitter.com/ishitakeshawani"
-            ><i class="fab fa-twitter footer-social-icon"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/ishitakeshawani/"
-            ><i class="fab fa-linkedin footer-social-icon"></i
-          ></a>
-        </div>
-        <div class="copy-right">© 2022 Stunners Hub</div>
-      </div>
-    </footer>
   </body>
 </html>

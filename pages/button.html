@@ -1,121 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ishita Keshawani" />
-    <meta name="description" content="Button page of Feliz UI">
-    <link rel="stylesheet" href="/styles/page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Button page of Feliz UI" />
+    <link rel="stylesheet" href="/styles/page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Button</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar fixed semibold-font-weight">
-        <a class="nav-link link-no-style" href="/index.html">Home</a>
-        <a class="nav-link link-no-style active" href="avatar.html">Documentation</a>
-        <a class="nav-link nav-icon" href="https://github.com/ishitakeshawani/Feliz-UI"><i class="fab fa-github"></i></a>
+      <a class="nav-link link-no-style" href="/index.html">Home</a>
+      <a class="nav-link link-no-style active" href="avatar.html"
+        >Documentation</a
+      >
+      <a
+        class="nav-link nav-icon"
+        href="https://github.com/ishitakeshawani/Feliz-UI"
+        ><i class="fab fa-github"></i
+      ></a>
     </nav>
 
     <div class="drawer-container">
-        <aside class="aside-component">
-            <div class="drawer-header semibold-font-weight">Components</div>
-            <div>
-                <div class="drawer-items">
-                    <a class="link-no-style" href="avatar.html">Avatar</a>
-                    <a class="link-no-style" href="alert.html">Alert</a>
-                    <a class="link-no-style" href="badge.html">Badge</a>
-                    <a class="link-no-style active-item" href="button.html">Button</a>
-                    <a class="link-no-style" href="card.html">Card</a>
-                    <a class="link-no-style" href="grid.html">Grid</a>
-                    <a class="link-no-style" href="image.html">Image</a>
-                    <a class="link-no-style" href="input.html">Input</a>
-                    <a class="link-no-style" href="textutilities.html">Text Utilities</a>
-                    <a class="link-no-style" href="list.html">List</a>
-                    <a class="link-no-style" href="modal.html">Modal</a>
-                    <a class="link-no-style" href="navigation.html">Navigation</a>
-                    <a class="link-no-style" href="slider.html">Slider</a>
-                    <a class="link-no-style" href="rate.html">Rate</a>
-                    <a class="link-no-style" href="toast.html">Toast</a>
-                </div>
-            </div>
-        </aside>
-
-        <div class="component-section">
-            <div class="component-title bold-font-weight">Button</div>
-            <p class="component-desc regular-font-weight">Buttons are the soul of an interactive Web Application.
-                Buttons allow users to take actions, and make choices, with a single tap</p>
-            <hr>
-            <div class="component-title bold-font-weight">Primary Button</div>
-            <div class="box flex">
-                <button class="btn">Default</button>
-                <button class="btn primary-btn">Primary</button>
-                <button class="btn secondary-btn">secondary</button>
-                <button class="btn click-btn">click</button>
-                <button class="btn delete-btn">delete</button>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=664&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520click-btn%2522%253Eclick%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520delete-btn%2522%253Edelete%253C%252Fbutton%253E"
-                    style="width: 622px; height: 249px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <hr>
-            <div class="component-title bold-font-weight">Link & Outlined Button</div>
-            <div class="box">
-                <button class="btn link-btn"><a href="http://">link</a></button>
-                <button class="btn outlined-btn">outline</button>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=805&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252F%2522%253Elink%253C%252Fa%253E%250A%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outlined-btn%2522%253Eoutline%253C%252Fbutton%253E"
-                    style="width: 597px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <hr>
-            <div class="component-title bold-font-weight">Icon & Floating Action Button</div>
-            <div class="box">
-                <button class="btn icon-btn">BUTTON<i class="far fa-clipboard"></i></button>
-                <button class="floating-btn"><i class="fas fa-cart-plus"></i></button>
-            </div>
-            <div class="code-snippet">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-btn%2522%253EBUTTON%253Ci%2520class%253D%2522far%2520fa-clipboard%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522floating-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
-                    style="width: 774px; height: 176px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="linkTo">
-                <a
-                  href="/pages/badge.html"
-                  class="link-no-style linkToPrev regular-font-weight"
-                  >Badge</a
-                >
-                <a href="/pages/card.html" class="link-no-style linkToNext regular-font-weight"
-                  >Card</a
-                >
-              </div>
+      <aside class="aside-component">
+        <div class="drawer-header semibold-font-weight">Components</div>
+        <div>
+          <div class="drawer-items">
+            <a class="link-no-style" href="avatar.html">Avatar</a>
+            <a class="link-no-style" href="alert.html">Alert</a>
+            <a class="link-no-style" href="badge.html">Badge</a>
+            <a class="link-no-style active-item" href="button.html">Button</a>
+            <a class="link-no-style" href="card.html">Card</a>
+            <a class="link-no-style" href="grid.html">Grid</a>
+            <a class="link-no-style" href="image.html">Image</a>
+            <a class="link-no-style" href="input.html">Input</a>
+            <a class="link-no-style" href="textutilities.html"
+              >Text Utilities</a
+            >
+            <a class="link-no-style" href="list.html">List</a>
+            <a class="link-no-style" href="modal.html">Modal</a>
+            <a class="link-no-style" href="navigation.html">Navigation</a>
+            <a class="link-no-style" href="slider.html">Slider</a>
+            <a class="link-no-style" href="rate.html">Rate</a>
+            <a class="link-no-style" href="toast.html">Toast</a>
+          </div>
         </div>
-        </div>
-        <footer class="footer flex-col-gap">
-            <div class="footer-items flex-col-gap">
-              <div class="made-by">
-                Made with <i class="fas fa-heart footer-icon"></i> By Ishita Keshawani
-              </div>
-              <div>
-                <a href="https://github.com/ishitakeshawani/Feliz-UI"><i class="fab fa-github footer-social-icon"></i></a>
-                <a href="https://twitter.com/ishitakeshawani"><i class="fab fa-twitter footer-social-icon"></i></a>
-                <a href="https://www.linkedin.com/in/ishitakeshawani/"><i class="fab fa-linkedin footer-social-icon"></i></a>
-              </div>
-              <div class="copy-right">© 2022 Stunners Hub</div>
-            </div>
-          </footer>
-</body>
+      </aside>
 
+      <div class="component-section">
+        <div class="component-title bold-font-weight">Button</div>
+        <p class="component-desc regular-font-weight">
+          Buttons are the soul of an interactive Web Application. Buttons allow
+          users to take actions, and make choices, with a single tap
+        </p>
+        <hr />
+        <div class="component-title bold-font-weight">Primary Button</div>
+        <div class="box flex">
+          <button class="btn">Default</button>
+          <button class="btn primary-btn">Primary</button>
+          <button class="btn secondary-btn">secondary</button>
+          <button class="btn click-btn">click</button>
+          <button class="btn delete-btn">delete</button>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253Esecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520click-btn%2522%253Eclick%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520delete-btn%2522%253Edelete%253C%252Fbutton%253E"
+            style="
+              width: 100%;
+              height: 200px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <div class="component-title bold-font-weight">
+          Link & Outlined Button
+        </div>
+        <div class="box">
+          <button class="btn link-btn"><a href="http://">link</a></button>
+          <button class="btn outlined-btn">outline</button>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520link-btn%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252F%2522%253Elink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-btn%2522%253Eoutline%253C%252Fbutton%253E"
+            style="
+              width: 100%;
+              height: 160px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <div class="component-title bold-font-weight">
+          Icon & Floating Action Button
+        </div>
+        <div class="box">
+          <button class="btn icon-btn">
+            BUTTON<i class="far fa-clipboard"></i>
+          </button>
+          <button class="floating-btn"><i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520icon-btn%2522%253E%2520BUTTON%2520%253Ci%2520class%253D%2522far%2520fa-clipboard%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+            style="
+              width: 100%;
+              height: 180px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="linkTo">
+          <a
+            href="/pages/badge.html"
+            class="link-no-style linkToPrev regular-font-weight"
+            >Badge</a
+          >
+          <a
+            href="/pages/card.html"
+            class="link-no-style linkToNext regular-font-weight"
+            >Card</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="footer flex-col-gap">
+      <div class="footer-items flex-col-gap">
+        <div class="made-by">
+          Made with <i class="fas fa-heart footer-icon"></i> By Ishita Keshawani
+        </div>
+        <div>
+          <a href="https://github.com/ishitakeshawani/Feliz-UI"
+            ><i class="fab fa-github footer-social-icon"></i
+          ></a>
+          <a href="https://twitter.com/ishitakeshawani"
+            ><i class="fab fa-twitter footer-social-icon"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ishitakeshawani/"
+            ><i class="fab fa-linkedin footer-social-icon"></i
+          ></a>
+        </div>
+        <div class="copy-right">© 2022 Stunners Hub</div>
+      </div>
+    </footer>
+  </body>
 </html>

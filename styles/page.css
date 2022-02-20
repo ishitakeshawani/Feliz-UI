@@ -34,7 +34,7 @@ body{
   margin: 1rem;
   text-align: left;
   margin-right: 3rem;
-  width: 95%;
+  
 }
 
 .component-desc {
@@ -91,13 +91,13 @@ body{
 
 .code-snippet {
   width: 100%;
-  padding: 1rem 0;
+  padding: 2rem 0;
   box-sizing: border-box;
-  overflow: auto;
   max-height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer {
@@ -142,5 +142,9 @@ body{
   .linkToPrev:hover,
   .linkToNext:hover {
     color: var(--primary-color);
+  }
+  .box{
+    gap: 0.7rem;
+    padding: 10px;
   }
 }

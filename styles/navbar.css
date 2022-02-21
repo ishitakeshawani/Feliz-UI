@@ -12,7 +12,7 @@
   min-height: 10vh;
 }
 
-.fixed{
+.fixed {
   position: fixed;
 }
 
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.nav-right-items{
+.nav-right-items {
   margin-left: auto;
   gap: 10px;
 }
@@ -47,21 +47,20 @@
   font-size: 1.5rem;
 }
 
-
-.nav-icon{
+.nav-icon {
   font-size: 2rem;
   margin-left: auto;
   width: 1.5rem;
 }
 
-.nav-icon-link{
+.nav-icon-link {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.color{
+.color {
   background-color: var(--lightBlue);
 }
 
@@ -69,12 +68,12 @@
   text-decoration: none;
 }
 
-.logoimage{
+.logoimage {
   max-width: 4vw;
   object-fit: cover;
 }
 
-.searchbar{
+.searchbar {
   background-color: var(--searchbar);
   border-radius: 5px;
   border: 1px solid var(--gray);
@@ -83,7 +82,7 @@
   justify-content: center;
 }
 
-.search-input{
+.search-input {
   border: none;
   outline: 0px;
   padding: 13px;
@@ -92,32 +91,125 @@
   margin: 0 3px;
 }
 
-.search-icon{
+.search-icon {
   font-size: 12px;
   margin-left: 9px;
   margin-right: 3px;
   color: var(--black);
 }
 
-.searchbar:active{
+.searchbar:active {
   border: 2px solid var(--black);
   outline-offset: 0px;
 }
 
+.mainMenu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.openMenu {
+  margin: 0 20px;
+  font-size: 1.7rem;
+  display: none;
+  cursor: pointer;
+}
+
+.closeMenu {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+.submenu {
+  font-size: 1.1rem;
+}
+
+.submenu-show {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 1rem;
+}
+
+.submenu-list {
+  display: none;
+}
+
+.submenu-icon {
+  margin-right: 10px;
+}
 
 @media only screen and (max-width: 768px) {
   .navbar {
     font-size: 1rem;
     width: 100%;
   }
-  .searchbar{
+  .searchbar {
     display: none;
   }
-  .nav-logo{
+  .nav-logo {
     display: none;
   }
-  .nav-icon{
+  .nav-icon {
     font-size: 1.2rem;
     width: 1rem;
+  }
+  .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    background: var(--white);
+    transition: top 1s ease;
+    display: none;
+  }
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .mainMenu {
+    display: none;
+    position: absolute;
+    right: 20px;
+  }
+  .openMenu {
+    display: block;
+  }
+  .mainMenu a {
+    background: none;
+    color: var(--bg-color);
+    font-size: 1.6rem;
+  }
+  .searchbar {
+    display: flex;
+    margin: 1rem 3.5rem 0 0;
+  }
+  .hide-icon {
+    display: none;
+  }
+  .small-fontsize {
+    font-size: 1rem;
+  }
+  .nav-icon-link .hide-icon {
+    display: none;
+  }
+  .submenu-show {
+    flex-direction: row;
+  }
+  .submenu {
+    font-size: 0.9rem;
+  }
+  .list li {
+    font-size: 0.8rem;
   }
 }

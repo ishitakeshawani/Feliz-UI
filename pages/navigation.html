@@ -67,15 +67,24 @@
           links to the left or right.
         </div>
         <hr />
-        <div class="component-title bold-font-weight">Fixed Navigation bar</div>
+        <div class="component-title bold-font-weight">
+          Navigation bar with Hamburger
+        </div>
         <div class="box">
           <nav class="navbar semibold-font-weight">
-            <a class="nav-logo nav-link link-no-style" href=""
-              ><img class="logoimage" src="/assets/images/logo.png" alt=""
-            /></a>
-            <a class="nav-link link-no-style" href="">Home</a>
-            <a class="nav-link link-no-style active" href="">Products</a>
-            <div class="nav-last-items">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <a class="nav-icon-link nav-link link-no-style hide-icon" href="">
+              <img class="logoimage" src="/assets/images/Stunners.png" alt="" />
+              <span class="small-fontsize">Stunners Hub</span>
+            </a>
+            <a class="nav-link link-no-style active nav-home" href="">Home</a>
+            <a
+              class="nav-link link-no-style nav-products"
+              href="/pages/products/products.html"
+              >Products</a
+            >
+
+            <div class="mainMenu">
               <div class="searchbar">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input
@@ -84,31 +93,40 @@
                   placeholder="Search on Stunners Hub"
                 />
               </div>
-
-              <a href="http://" class="link-no-style nav-link nav-icon-link">
-                <i class="fa-regular fa-user"></i>
+              <a
+                href="/pages/Authentication/login/login.html"
+                class="link-no-style nav-link nav-icon-link"
+              >
+                <i class="fas fa-user hide-icon"></i>
                 <span class="small-fontsize">Login</span>
               </a>
-              <a href="http://" class="link-no-style nav-link nav-icon-link">
-                <i class="fa-regular fa-heart"></i>
+              <a
+                href="/pages/wishlist/wishlist.html"
+                class="link-no-style nav-link nav-icon-link"
+              >
+                <i class="fas fa-heart hide-icon"></i>
                 <span class="small-fontsize">Wishlist</span>
               </a>
-              <a href="http://" class="link-no-style nav-link nav-icon-link">
-                <img
-                  class="nav-icon"
-                  src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-cart-ecommerce-flatart-icons-outline-flatarticons-4.png"
-                />
+              <a
+                href="/pages/cart/cart.html"
+                class="link-no-style nav-link nav-icon-link"
+              >
+                <i class="fas fa-cart-shopping hide-icon"></i>
                 <span class="small-fontsize">Cart</span>
               </a>
+
+              <div class="closeMenu">
+                <i class="fa fa-times"></i>
+              </div>
             </div>
           </nav>
         </div>
         <div class="code-snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520semibold-font-weight%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-logo%2520nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522logoimage%2522%2520src%253D%2522%252Fassets%252Fimages%252Flogo.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2520active%2522%2520href%253D%2522%2522%253EProducts%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-last-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522searchbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-magnifying-glass%2520search-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522search-input%2522%2520placeholder%253D%2522Search%2520on%2520Stunners%2520Hub%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252F%2522%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253ELogin%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252F%2522%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253EWishlist%253C%252Fspan%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252F%2522%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522nav-icon%2522%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fexternal-flatart-icons-outline-%2509%2509%2520%2520%2520%2520%2520%2509%2509%2509flatarticons%252F64%252F000000%252Fexternal-cart-ecommerce-flatart-icons-outline-flatarticons-4.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253ECart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520semibold-font-weight%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522openMenu%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-icon-link%2520nav-link%2520link-no-style%2520hide-icon%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522logoimage%2522%2520src%253D%2522%252Fassets%252FStunners.png%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253EStunners%2520Hub%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2520active%2520nav-home%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520Home%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%250A%2520%2520%2520%2520class%253D%2522nav-link%2520link-no-style%2520nav-products%2522%250A%2520%2520%2520%2520href%253D%2522%252Fpages%252Fproducts%252Fproducts.html%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520Products%250A%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522mainMenu%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522searchbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-magnifying-glass%2520search-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522search-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Search%2520on%2520Stunners%2520Hub%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520href%253D%2522%252Fpages%252FAuthentication%252Flogin%252Flogin.html%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2520hide-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253ELogin%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520href%253D%2522%252Fpages%252Fwishlist%252Fwishlist.html%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520hide-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253EWishlist%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520href%253D%2522%252Fpages%252Fcart%252Fcart.html%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522link-no-style%2520nav-link%2520nav-icon-link%2522%250A%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-shopping%2520hide-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-fontsize%2522%253ECart%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522closeMenu%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
             style="
-              width: 80%;
-              height: 550px;
+              width: 100%;
+              height: 100vh;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -118,23 +136,49 @@
           </iframe>
         </div>
         <div class="component-title bold-font-weight">
-          Standard Navigation bar
+          Navigation bar with Submenu
         </div>
         <div class="box">
           <nav class="navbar semibold-font-weight color">
             <i class="fas fa-bars nav-link link-no-style"></i>
             <a class="nav-link link-no-style" href="">Home</a>
+            <div class="flex submenu-show">
+              <div class="submenu">
+                Products <i class="fas fa-angle-down submenu-icon"></i>
+              </div>
+              <div class="list submenu-list">
+                <li>Makeup</li>
+                <li>Haircare</li>
+                <li>Skincare</li>
+              </div>
+            </div>
             <div class="nav-right-items">
               <i class="fas fa-download nav-link nav-icon"></i>
             </div>
+            <script>
+              document
+                .querySelector(".submenu")
+                .addEventListener("click", function () {
+                  if (
+                    document.querySelector(".submenu-list").style.display ==
+                    "none"
+                  ) {
+                    document.querySelector(".submenu-list").style.display =
+                      "block";
+                  } else {
+                    document.querySelector(".submenu-list").style.display =
+                      "none";
+                  }
+                });
+            </script>
           </nav>
         </div>
         <div class="code-snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520semibold-font-weight%2520color%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520nav-link%2520link-no-style%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520Home%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-right-items%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2520nav-link%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=159%25&si=false&es=2x&wm=false&code=%2520%253Cnav%2520class%253D%2522navbar%2520semibold-font-weight%2520color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520nav-link%2520link-no-style%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522nav-link%2520link-no-style%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520submenu-show%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522submenu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Products%2520%253Ci%2520class%253D%2522fas%2520fa-angle-down%2520submenu-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2520submenu-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EMakeup%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EHaircare%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESkincare%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-right-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2520nav-link%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cscript%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.querySelector%28%2522.submenu%2522%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.addEventListener%28%2522click%2522%252C%2520function%2520%28%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520if%2520%28%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.querySelector%28%2522.submenu-list%2522%29.style.display%2520%253D%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522none%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.querySelector%28%2522.submenu-list%2522%29.style.display%2520%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522block%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520document.querySelector%28%2522.submenu-list%2522%29.style.display%2520%253D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522none%2522%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fscript%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E"
             style="
               width: 100%;
-              height: 50vh;
+              height: 100vh;
               border: 0;
               transform: scale(1);
               overflow: hidden;
